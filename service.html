@@ -32,6 +32,68 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+    <style>
+        body {
+            background-color: #12075D;
+            color: #01BBF0;
+        }
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background: #01BBF0;
+            transform: translateX(-50%);
+        }
+        .timeline-event {
+            position: relative;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #12075D;
+        }
+        .timeline-event:nth-child(odd) {
+            margin-right: auto;
+            margin-left: 0;
+        }
+        .timeline-event:nth-child(even) {
+            margin-left: auto;
+            margin-right: 0;
+        }
+        .timeline-event::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+            background: #01BBF0;
+            border: 4px solid #fff;
+            border-radius: 50%;
+            transform: translateY(-50%);
+        }
+        .timeline-event:nth-child(odd)::after {
+            right: -34px;
+        }
+        .timeline-event:nth-child(even)::after {
+            left: -34px;
+        }
+        a {
+            color: #01BBF0;
+        }
+        a:hover {
+            color: #fff;
+        }
+    </style>
+  
 </head>
 
 <body class="sub_page">
