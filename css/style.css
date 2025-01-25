@@ -951,7 +951,7 @@ a:focus {
   }
 
   .box:hover {
-    background-color: #007bff; /* Bootstrap primary colour */
+    background-color: #01BBF0;
     colour: white;
     border-colour: #007bff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
