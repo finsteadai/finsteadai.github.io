@@ -1,1 +1,1 @@
-# finsteadai.github.io
+# www.finstead.ai
