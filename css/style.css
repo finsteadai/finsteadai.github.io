@@ -944,4 +944,8 @@ a:focus {
   text-align: center; /* Ensures multi-line text is centered */
 }
 
+.whiteText {
+color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
