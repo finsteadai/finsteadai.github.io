@@ -927,19 +927,21 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
-        .circle {
-            width: 150px;
-            height: 150px;
-            border: 4px solid white;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: centre;
-            background-color: #01BBF0; 
-            colour: white;
-            font-size: 30px;
-            font-weight: bold;
-            margin: 20px auto;
-        }
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border: 4px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; /* Correct spelling */
+  align-items: center; /* Correct spelling */
+  background-color: #01BBF0;
+  color: white; /* Correct spelling for "color" */
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center; /* Ensures multi-line text is centered */
+}
 
 /*# sourceMappingURL=style.css.map */
