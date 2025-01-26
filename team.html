@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <!-- Basic -->
@@ -15,126 +15,56 @@
 
   <title> FinStead.AI </title>
 
-  <!-- Bootstrap core CSS -->
+  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- Google Fonts -->
+  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-  <!-- Owl Slider Stylesheet -->
+  <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-  <!-- Font Awesome -->
+  <!-- font awesome style -->
   <link href="css/font-awesome.min.css" rel="stylesheet" />
 
-  <!-- Custom Styles -->
+  <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <style>
-    body {
-      background-color: #06014A;
-      color: #ffffff;
-      font-family: 'Roboto', sans-serif;
-    }
-
-    .header_section {
-      background-color: #09094E;
-      padding: 15px 0;
-    }
-
-    .navbar-brand span {
-      color: #ffffff;
-      font-weight: 700;
-      font-size: 24px;
-    }
-
-    .nav-link {
-      color: #ffffff;
-      margin-right: 15px;
-    }
-
-    .nav-link:hover {
-      color: #FFD700;
-    }
-
-    .hero_area {
-      position: relative;
-      padding: 50px 0;
-    }
-
-    .heading_container h2,
-    .heading_container h3 {
-      color: #FFD700;
-    }
-
-    .team_section .box {
-      background-color: #0A0746;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      transition: transform 0.3s ease, background-color 0.3s ease;
-    }
-
-    .team_section .box:hover {
-      transform: scale(1.05);
-      background-color: #1B1464;
-    }
-
-    .circle {
-      background-color: #FFD700;
-      color: #06014A;
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 1.2;
-      padding: 20px;
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto 15px;
-    }
-
-    .footer_section {
-      background-color: #09094E;
-      padding: 15px 0;
-      text-align: center;
-    }
-
-    .footer_section a {
-      color: #FFD700;
-      text-decoration: none;
-    }
-
-    .footer_section a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 
 <body class="sub_page">
 
   <div class="hero_area">
 
-    <!-- Header Section -->
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>FinStead.AI</span>
+            <span>
+              FinStead.AI
+            </span>
           </a>
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html"> About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="service.html">News & Updates</a>
@@ -143,13 +73,13 @@
                 <a class="nav-link" href="why.html">Why Us</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="team.html">Team</a>
+                <a class="nav-link" href="team.html">Team <span class="sr-only">(current)</span> </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
               </li>
               <form class="form-inline">
-                <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
               </form>
@@ -158,67 +88,373 @@
         </nav>
       </div>
     </header>
+    <!-- end header section 
+  </div>
 
-    <!-- Team Section -->
-    <section class="team_section layout_padding">
-      <div class="container-fluid">
-        <div class="heading_container heading_center">
-          <h2>Our <span>Team</span></h2>
-          <br><br>
-          <h3>Founder team has proven expertise in <span>AI & Banking</span> Software Development, Implementation, and Sales.</h3>
-        </div>
-        <div class="team_container">
-          <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <div class="box">
+<!--
+
+  <section>
+        <h2>Our Story</h2>
+        <p>FinStead.AI was born out of an entrepreneurial journey at Imperial College Business School, London. The idea reflects a passion for innovation and leveraging artificial intelligence to solve modern financial industry technology challenges.</p>
+        <h2>Meet the Team</h2>
+        <p>The FinStead.AI team is composed of five highly skilled and dedicated individuals:</p>
+        <ul>
+            <li>Four Executive MBA graduates from Imperial College Business School</li>
+            <li>One AI PhD student bringing cutting-edge expertise in artificial intelligence</li>
+        </ul>
+        <p>Together, we aim to redefine possibilities and deliver impactful solutions through collaboration and creativity.</p>
+    </section>
+-->
+ 
+  <section class="team_section layout_padding">
+    <div class="container-fluid">
+      <div class="heading_container heading_center">
+        <h2 class="">
+          Our <span> Team</span>
+        </h2>
+        <h3 class="">
+          Founder team has proven expertise in <span> AI & Banking </span> Software Development, Implementation and Sales​.
+        </h3>
+      </div>
+
+      <div class="team_container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">            
+              <div class="detail-box">
                 <div class="circle mx-auto">
                   65 <br>Years
                 </div>
-                <p>of Combined Software Industry Experience</p>
+                <p>
+                  of Combined Software Industry Experience
+                </p>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="box">
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="detail-box">
                 <div class="circle mx-auto">
                   43 <br>Years
                 </div>
-                <p>of Combined Banking Software Experience</p>
+                <p>
+                  of Combined Banking Software Experience
+                </p>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="box">
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="detail-box">
                 <div class="circle mx-auto">
-                  300 <br>Plus
-                </div>
-                <p>Banking Software Sales Engagement Experience</p>
+                  300 <br> Plus
+                </div>   
+                <p>
+                  Banking Software Sales Engagement Experience
+                </p>
               </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="box">
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="detail-box">
                 <div class="circle mx-auto">
                   25 <br>Plus
                 </div>
-                <p>Successful Hands-on Banking Software Implementation Experience</p>
+                <p>
+                  Successful Hands-on Banking Software Implementation Experience
+                </p>
+              </div>
+            </div>
+          </div>
+<div class="heading_container heading_center">
+        <h2 class="">
+         <br><br><br> FinStead.AI was born out of an entrepreneurial journey at Imperial College Business School, London. The idea reflects a passion for innovation and leveraging artificial intelligence to solve financial industry technology challenges.
+        </h2>
+ </div>    
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+   <!-- team section original for future use AR
+
+    
+  <section class="team_section layout_padding">
+    <div class="container-fluid">
+      <div class="heading_container heading_center">
+        <h2 class="">
+          Our <span> Team</span>
+        </h2>
+      </div>
+
+      <div class="team_container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-1.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Joseph Brown
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-2.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Nancy White
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-3.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Earl Martinez
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/team-4.jpg" class="img1" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Josephine Allard
+                </h5>
+                <p>
+                  Marketing Head
+                </p>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+ 
 
-    <!-- Footer Section -->
-    <section class="footer_section">
-      <div class="container">
-        <p>&copy; <span id="displayYear"></span> All Rights Reserved By <a href="https://finstead.ai">FinStead.AI London</a></p>
+The original team section ends here for future use : AR -->
+
+  <!-- info section 
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +01 1234567890
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  demo@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="service.html">
+                Services
+              </a>
+              <a class="" href="why.html">
+                Why Us
+              </a>
+              <a class="" href="team.html">
+                Team
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-  </div>
+    -->
 
-  <!-- Scripts -->
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://finstead.ai">FinStead.AI London</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
   <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
 
 </body>
 
